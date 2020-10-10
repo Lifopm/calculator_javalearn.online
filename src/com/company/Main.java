@@ -63,7 +63,7 @@ public class Main {
             case '-':
                 return firstValue - secondValue;
             case '/':
-                return Math.round(firstValue / secondValue);
+                return Math.round((float)firstValue / secondValue);
             case '*':
                 return firstValue * secondValue;
         }
