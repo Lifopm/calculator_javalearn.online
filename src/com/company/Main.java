@@ -94,9 +94,6 @@ public class Main {
                 input += 1;
                 result = result.substring(0, result.length() - 1) + "I" + result.substring(result.length() - 1);
             }
-
-            System.out.println("результат текущий " + result);
-            System.out.println("input " + input);
         }
         return result;
     }
